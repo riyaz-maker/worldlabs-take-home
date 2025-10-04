@@ -10,5 +10,5 @@ Implementing warp synchronization and reductions to calculate global sin sum was
 ## Results
 Results showing bandwidth achieved for (cudaMemcpy(DevicetoDevice)) and the bandwidth achieved for the kernel can be found at the end of the noteboook.
 
-##Note
+## Note
 Physical gpu that i have is gtx 1650 which doesn't support bf16 data types. So, I had to use google colab's A100 and hence the jupyter notebook instead of C++ files and screenshots. I hope that's okay.
